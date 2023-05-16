@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Computer System Studio</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- Header with comppany name and logo -->
+    <header>
+        <a href="https://csstudio.hr/">
+            <img src="images/CSS logo name web 2023.webp" alt="Computer System Studio" loading="lazy" height="94px" style="background-color: #f1f1f1; box-shadow: 0px 6px 10px 5px #f1f1f1;">
+        </a>
+    </header>
+
+    <!-- Permanent navbar -->
+    <div class="sticky-header">
+       
+        <!-- Generate menu links from sitemap -->
+        <div class="header-left bottom-align">
+            <div class="dropdown">
+                <button class="dropbtn-blue">&#9776; Menu</button>
+                <div class="dropdown-content-left">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Logo visible on scroll down -->
+        <div class="header-center">
+            <a href="#top"><img src="images/CSS logo 2023.png" height="50px" padding="5px" margin="0px" top="0" alt="Computer System Studio logo" style="background-color: #f1f1f1; box-shadow: 0px 0px 4px 2px white;"> 
+            </a>
+        </div>
+        
+        <!-- Language selector: generate partialy via translate -->
+        <div class="header-right bottom-align">
+            <div class="dropdown">
+                <button class="dropbtn-red" style=" padding:0px 12px 12px 12px">Lang: &#x25BC; HR <font size="+3" style="position: relative;
+                    bottom: -0.2em;">&#127469;&#127479;</font></button>
+                <div class="dropdown-content-right" style="right:0;">
+                    <a href="index.en.html">English <font size="+2" style="position: relative;
+                         margin:0; padding:0">&#127469;&#127479;</font></a>
+                    <a href="index.hr.html">Hrvatski <font size="+2" style="position: relative;
+                        margin:0; padding:0">&#127469;&#127479;</font></a>
+                    <!-- TODO: Generate this from backend translate service via English -->
+                    <!--
+                    <div class="line"></div>
+                    <a href="#">Lang 1</a>
+                    <a href="#">Lang 2</a>
+                    -->
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Graphic menu element -->
+    <div class="image-grid-2" style="z-index:1">
+
+        <!-- Top left -->
+        <a href="#" class="grid-element-level-1 enlarge-onhower" 
+                    style="                                
+                        border-right: 5px solid black; 
+                        border-bottom: 5px solid black;
+                        box-shadow: 10px 10px 8px black;
+                   
+                        background-image: url(images/shop_window.png);
+                        background-position: center; 
+                        background-size: cover;
+                        
+                        "
+        >
+             <h2 class="white-on-black top-position">
+                Izrada web stranica
+            </h2>
+                        
+        </a>
+
+
+        <!-- Top right -->
+        <a href="#" class="grid-element-level-1 enlarge-on-hower" 
+                        style="                                
+                            border-left: 5px solid black; 
+                            border-bottom: 5px solid black;
+                            box-shadow: -10px 10px 8px black;
+                        
+                            background-image: url(images/products.png);
+                            background-position: center; 
+                            background-size: cover;
+                            
+
+                            "
+        >
+            <h2 class="white-on-black top-position">
+                Naše gotove aplikacije u ponudi
+            </h2>
+                    
+   
+        </a>
+        
+
+        <!-- Bottom left -->
+        <a href="#" class="grid-element-level-1" 
+                    style="                                
+                        border-right: 5px solid black; 
+                        border-top: 5px solid black;
+                        box-shadow: 10px -10px 8px black;
+                    
+                        background-image: url(images/engineer.png);
+                        background-position: center; 
+                        background-size: cover;
+                    
+
+                        "
+        >
+            <h2 class="black-on-white bottom-position">
+                Usluge projektiranja
+            </h2>
+                    
+       
+        </a>
+
+
+        <!-- Bottom right -->
+        <a href="#" class="grid-element-level-1 enlarge-on-hover" 
+                    style="                                
+                        border-left: 5px solid black; 
+                        border-top: 5px solid black;
+                        box-shadow: -10px -10px 8px black;
+                    
+                    
+                    
+                        background-image: url(images/community.png);
+                        background-position: center; 
+                        background-size: cover;
+                        
+
+                    "
+        >
+            <h2 class="black-on-white bottom-position">
+                Projekti u zajednici
+            </h2>
+                    
+      
+        </a>
+        
+
+        <!-- Center element -->
+        <a href="#" class="center-element-level-1 enlarge-on-hover" 
+                    style="
+                        background-image:url(images/software_development.png);
+                        background-position: center; 
+                        background-size: cover;
+                        box-shadow: -0px 0px 10px 5px black;
+                        
+                        "
+        >
+        
+        
+            <h2 class="white-on-black top-position">
+                Izrada aplikacija i programiranje
+            </h2>
+            
+        
+        </a>
+
+    </div>
+
+    <div style="height:100px;"></div>
+	<div class="image-grid" style="z-index:1">
+		<div 
+                    class="imege-grid-row-2 image-grid-col-2" 
+                    style="
+                        background-image:url(images/shop_window.png);
+                        background-position: center; 
+                        background-size: cover;
+                        position:relative;
+                        height:100%;
+                        width:100%;
+                        padding:0;
+                        margin:0;"
+        >
+            <h2     style="
+                        position: absolute; 
+                        
+                        
+                        
+                        color: white; 
+                        text-shadow: 0px 0px 10px black;
+                        font-size: 32px; 
+                        font-family: Garamond, Georgia, serif;
+                        padding:12px"
+            >
+                Paketi web stranica za male poduzetnike
+            </h2>
+        </div>
+        <div class="" style="background-image:url(images/products.png);background-position: center;background-size: cover;position:relative;">
+            <h2 style=" bottom:100%; color:white; ">Gotove aplikacije u ponudi</h2>
+        </div>
+        <div class="" style="
+                        background-image:url(images/software_development.png);
+                        background-position: center;
+                        background-size: cover;
+                        position:relative;">
+            <h2 style="position:aboslute; bottom:0; color:white; ">Izrada web stranica i aplikacija po mjeri</h2>
+        </div>
+        <div class="" style="
+                        background-image:url(images/engineer.png);
+                        background-position: center; 
+                        background-size: cover;
+                        position:relative;">
+            <h2 style="position:absolute; bottom:0; color:white; ">Usluge projektiranja</h2>
+        </div>
+        
+		
+	</div>
+    <div style="padding:15px 15px 2500px;font-size:30px;margin-top:30px;">
+        <p><b>This example demonstrates how to hide a navbar when the user starts to scroll the page.</b></p>
+        <p>Scroll down this frame to see the effect!</p>
+        <p>Scroll up to show the navbar.</p>
+        <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+</body>
+</html>
