@@ -10,7 +10,7 @@ header {
     position: relative;
     background-color: #f1f1f1;
     padding: 0;
-    margin: 0;
+    margin: -10px 0px 0px;
     font-family: Garamond, Georgia, serif;
     font-variant: small-caps;
     font-size: 52px;
@@ -18,10 +18,13 @@ header {
     height: 52px;
     overflow: visible;
     z-index: 10;
+    height:fit-content;
 }
 header a {
   text-decoration: none;
   color: black;
+  margin:0px;
+  padding:0px;
 }
 
 .sticky-header {
@@ -29,7 +32,7 @@ header a {
   position: sticky;
   background-image: linear-gradient(to bottom, #f1f1f1, rgba(255, 255, 255, 0));
   padding: 0;
-  margin: 0;
+  margin: 0px 0px 50px;
   font-family: Garamond, Georgia, serif;
   font-variant: small-caps;
   font-size: 52px;
@@ -315,5 +318,13 @@ h2 {
   letter-spacing: 1px;
   font-family: Garamond, Georgia, serif;
   padding:25px;
+  text-decoration:inherit;
+}
+
+h1 {
+  font-size: 72px; 
+  letter-spacing: 1px;
+  font-family: Garamond, Georgia, serif;
+  padding:0px;
   text-decoration:inherit;
 }
